@@ -1,0 +1,33 @@
+h1{
+    color: #333;
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.para{
+    color: #333;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color: #333;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    padding: 10px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 10px;
+    flex-direction: row;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}

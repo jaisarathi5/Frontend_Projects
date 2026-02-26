@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database</title>
+        <style>
+    </style>
+    <link rel="stylesheet" href="style.css">
+   </head>
+<body>
+     <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif serif;"><b>Employee Management System</b></h1>
+    <button class="addbutton">Add</button>
+    <div class="container">
+        <div class="tablewrapper">
+        <div class="inputsection">
+        <table class="inputtable hidden">
+            <tr>
+                <td>Employee ID </td>
+                <td><input type="text" id="IDinput">
+                <span class="errormsg" id="iderror"></span></td>
+            </tr>
+            <tr>
+                <td>Name </td>
+                <td><input type="text" id="nameinput">
+                <span class="errormsg" id="nameerror"></span></td>
+            </tr>
+            <tr>
+                <td>Date Of Birth </td>
+                <td><input type="date" id="Dobinput">
+                <span class="errormsg" id="doberror"></span></td>
+            </tr>
+            <tr>
+                <td>Department </td>
+                <td><input type="text" id="Departmentinput">
+                <span class="errormsg" id="departmenterror"></span></td>
+            </tr>
+            <tr>
+                <td>Skill </td>
+                <td><input type="text" id="skillinput">
+                <span class="errormsg" id="skillerror"></span></td>
+            </tr>
+            <tr>
+                <td>Password </td>
+                <td><input type="password" id="passinput">
+                <span class="errormsg" id="passerror"></span></td>
+            </tr>
+        </table>
+        <button class="Submitbutton hidden">Submit</button>
+        </div>
+        <table class="outputtable">
+            <tr>
+                <th>Employee ID</th>
+                <th>Name</th>
+                <th>DOB</th>
+                <th>Department</th>
+                <th>Skill</th>
+                <th>Update / Delete</th>
+            </tr>
+        </table>
+        </div>
+    </div>
+</body>
+</html>
